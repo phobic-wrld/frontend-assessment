@@ -1,1 +1,55 @@
+:root {
+    --bg-dark: #464646;
+    --gold: #c6a146;
+    --grey-blue: #7c8ea6;
+    --text-gold: #e9c445;
+    --pastel-pink: #f6ced1;
+    --pastel-lime: #d8e8b0;
+    --pastel-orange: #fce3a2;
+    --pastel-rose: #f9cbd1;
+}
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dark-card {
+    background-color: var(--bg-dark);
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.hero-inner-frame {
+    border: 1px solid var(--gold);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.hero-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.hero-name { color: white; font-size: 1.2rem; font-weight: bold; margin: 0; }
+.hero-welcome-text { color: white; font-size: 0.9rem; font-weight: bold; margin-top: 15px; line-height: 1.4; }
+
+/* Stats Cards - Fixed for mobile grid */
+.stat-card {
+    border-radius: 8px;
+    padding: 10px;
+    height: 100%;
+}
+.bg-pastel-pink { background-color: var(--pastel-pink); }
+.bg-pastel-lime { background-color: var(--pastel-lime); }
+.bg-pastel-orange { background-color: var(--pastel-orange); }
+.bg-pastel-rose { background-color: var(--pastel-rose); }
+
+.stat-header { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+.stat-header img { width: 25px; height: 25px; border-radius: 50%; }
+.stat-user-name { font-size: 0.65rem; font-weight: bold; color: #333; line-height: 1.1; }
+.stat-number { font-size: 1.6rem; font-weight: 800; color: #000; text-align: center; }
 
