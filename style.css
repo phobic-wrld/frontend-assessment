@@ -77,3 +77,12 @@ body {
     display: block; font-size: 0.75rem; font-weight: bold;
 }
 
+/* Footer & WhatsApp */
+.footer-wrapper { margin-top: 50px; padding-bottom: 60px; position: relative; }
+.wa-float { position: absolute; right: 20px; bottom: 50px; width: 40px; }
+.wa-float img { width: 100%; }
+.footer-bar {
+    background-color: var(--gold); color: white;
+    text-align: center; padding: 8px; font-size: 0.65rem;
+    position: absolute; bottom: 0; left: 0; width: 100%;
+}
